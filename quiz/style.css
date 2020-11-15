@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+ }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#64b3f4, #c2e59c ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2{
+    font-family: inherit;
+    font-size: 2.25rem;
+    font-display: bold;
+}
+
+.question-container{
+    margin-top: 10rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    display: table-column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.question-header{
+    margin-top: -3.75rem;
+    padding: 4rem;
+}
+
+ul{
+    margin-top: 1.5rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    font-family: inherit;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+.button{
+    margin-top: -2rem;
+    color: white; 
+    background-color: #9b59b6;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.275rem;
+    border: none;
+}
+
+.button:hover {
+    background-color: #72368a;
+}

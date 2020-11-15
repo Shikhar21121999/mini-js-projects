@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+ }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(75, 27, 151);
+}
+
+.timer{
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(204, 195, 66);
+}
+
+.cont{
+    background-color: rgb(204, 195, 66);
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width: 90%;
+}
+
+.quote-display{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    margin-left: 1.125rem;
+    margin-right: 1.125rem;
+}
+
+
+.quote-input{
+    background-color: transparent;
+    border: 2px solid rgb(160, 152, 49);
+    outline: none;
+    resize: none;
+    width: 100%;
+    margin: auto;
+    height: 8rem;
+    padding: .5rem 1rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+
+}
+
+.quote-input:focus{
+    border-color: black;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
+
+.speed{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    color: rgb(204, 195, 66);
+}
+
+.time_cont{
+    position: absolute;
+    top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
